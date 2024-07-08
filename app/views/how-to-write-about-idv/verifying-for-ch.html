@@ -1,0 +1,49 @@
+{% extends "layouts/main.html" %}
+
+{% set pageName="Home" %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+
+
+
+    <h1 class="govuk-heading-xl">
+        Verifying your identity for Companies House</h1>
+      <h3 class="govuk-heading-m">Telling people how to verify their identity</h3>
+      <p class="govuk-body">You can use the
+     <a href="https://prove-your-identity-prototype.herokuapp.com/release1-dev-v2/pre-one-login/start" class="govuk-link">Verify your identity for Companies House</a> service to:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>verify online </li>
+        <li>find out how to verify in person at a Post Office </li>
+      </ul>
+
+      <p>Another option is to ask a <a href="https://prove-your-identity-prototype.herokuapp.com/release1-dev/pre-one-login/acsp-route" class="govuk-link">Companies House authorised agent</a> (such as an accountant or solicitor) to verify your identity for you.</p>
+
+      <h3 class="govuk-heading-m">Why people need to verify their identity</h3>
+      <p class="govuk-body">You need to verify your identity to confirm you are who you say you are. This will:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>reduce the risk of fraud</li>
+        <li>improve transparency, trust and accuracy of information on the Companies House register</li>
+      </ul>
+
+      <h3 class="govuk-heading-m">Who needs to verify their identity</h3>
+
+      <h3 class="govuk-heading-s">Release 1</h3>
+<p>You need to verify your identity if you are a sole trader applying to register as a Companies House authorised agent. </p>
+
+      <h3 class="govuk-heading-s">Release 2 - until presenters are required to verify </h3>
+      <p class="govuk-body">You need to verify your identity if you are:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>a person with significant control (PSC)</li>
+        <li>a director</li>
+        <li>the equivalent of a director – this includes members, general partners and managing officers</li>
+        <li>a sole trader applying to register as a Companies House authorised agent </li>
+      </ul>
+
+      <h3 class="govuk-heading-s">Release 3 - when presenters also need to IDV </h3>
+
+  </div>
+</div>
+{% endblock %}
