@@ -1,0 +1,246 @@
+{% extends "layouts/main.html" %}
+
+{% set pageName="A-Z" %}
+
+{% block content %}
+
+
+
+<div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+      {{ govukPanel({
+        titleText: "Companies House IDV style guide",
+        html: "",
+        classes: "blue"
+      }) }}
+
+
+<div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds-from-desktop">
+          <h2 class="govuk-heading-m">A to Z</h2>
+          <p class="govuk-body-l">The Companies House style guide covers style, spelling and grammar conventions for all content published on Companies House, arranged alphabetically.</p>
+        </div>
+      </div>
+
+{% from "govuk/components/accordion/macro.njk" import govukAccordion %}
+
+{{ govukAccordion({
+  id: "accordion-default",
+  items: [
+    {
+      heading: {
+        text: "A"
+      },
+      content: {
+        html: '<p class="govuk-body">This is the content for Writing well for the web.</p>'
+      }
+    },
+    {
+      heading: {
+        text: "B"
+      },
+      content: {
+        html: '<p class="govuk-body">This is the content for Writing well for specialists.</p>'
+      }
+    },
+    {
+      heading: {
+        text: "C"
+      },
+      content: {
+        html: '<p class="govuk-body">This is the content for Know your audience.</p>'
+      }
+    },
+    {
+      heading: {
+        text: "D"
+      },
+      content: {
+        html: '<p class="govuk-body">This is the content for How people read.</p>'
+      }
+    },
+    {
+      heading: {
+        text: "E"
+      },
+      content: {
+        html: '<p class="govuk-body">This is the content for Know your audience.</p>'
+      }
+    },
+    {
+      heading: {
+        text: "F"
+      },
+      content: {
+        html: '<p class="govuk-body">This is the content for Know your audience.</p>'
+      }
+    },
+    {
+      heading: {
+        text: "G"
+      },
+      content: {
+        html: '<p class="govuk-body">This is the content for Know your audience.</p>'
+      }
+    },
+    {
+      heading: {
+        text: "H"
+      },
+      content: {
+        html: '<p class="govuk-body">This is the content for Know your audience.</p>'
+      }
+    },
+    {
+      heading: {
+        text: "I"
+      },
+      content: {
+        html: '<p class="govuk-body">This is the content for Know your audience.</p>'
+      }
+    },
+    {
+      heading: {
+        text: "J"
+      },
+      content: {
+        html: '<p class="govuk-body">This is the content for Know your audience.</p>'
+      }
+    },
+    {
+      heading: {
+        text: "K"
+      },
+      content: {
+        html: '<p class="govuk-body">This is the content for Know your audience.</p>'
+      }
+    },
+    {
+      heading: {
+        text: "L"
+      },
+      content: {
+        html: '<p class="govuk-body">This is the content for Know your audience.</p>'
+      }
+    },
+    {
+      heading: {
+        text: "M"
+      },
+      content: {
+        html: '<p class="govuk-body">This is the content for Know your audience.</p>'
+      }
+    },
+    {
+      heading: {
+        text: "N"
+      },
+      content: {
+        html: '<p class="govuk-body">This is the content for Know your audience.</p>'
+      }
+    },
+    {
+      heading: {
+        text: "O"
+      },
+      content: {
+        html: '<p class="govuk-body">This is the content for Know your audience.</p>'
+      }
+    },
+    {
+      heading: {
+        text: "P"
+      },
+      content: {
+        html: '<p class="govuk-body">This is the content for Know your audience.</p>'
+      }
+    },
+    {
+      heading: {
+        text: "Q"
+      },
+      content: {
+        html: '<p class="govuk-body">This is the content for Know your audience.</p>'
+      }
+    },
+    {
+      heading: {
+        text: "R"
+      },
+      content: {
+        html: '<p class="govuk-body">This is the content for Know your audience.</p>'
+      }
+    },
+    {
+      heading: {
+        text: "S"
+      },
+      content: {
+        html: '<p class="govuk-body">This is the content for Know your audience.</p>'
+      }
+    },
+    {
+      heading: {
+        text: "T"
+      },
+      content: {
+        html: '<p class="govuk-body">This is the content for Know your audience.</p>'
+      }
+    },
+    {
+      heading: {
+        text: "U"
+      },
+      content: {
+        html: '<p class="govuk-body">This is the content for Know your audience.</p>'
+      }
+    },
+    {
+      heading: {
+        text: "V"
+      },
+      content: {
+        html: '<p class="govuk-body">This is the content for Know your audience.</p>'
+      }
+    },
+    {
+      heading: {
+        text: "W"
+      },
+      content: {
+        html: '<p class="govuk-body">This is the content for Know your audience.</p>'
+      }
+    },
+    {
+      heading: {
+        text: "X"
+      },
+      content: {
+        html: '<p class="govuk-body">This is the content for Know your audience.</p>'
+      }
+    },
+    {
+      heading: {
+        text: "Y"
+      },
+      content: {
+        html: '<p class="govuk-body">This is the content for Know your audience.</p>'
+      }
+    },
+    {
+      heading: {
+        text: "Z"
+      },
+      content: {
+        html: '<p class="govuk-body">This is the content for Know your audience.</p>'
+      }
+    }
+  ]
+}) }}
+
+
+
+
+
+
+{% endblock %}
